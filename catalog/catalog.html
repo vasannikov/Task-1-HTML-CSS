@@ -4,6 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Каталог</title>
+    <style>
+        /* Добавим простой CSS для стилизации карточек и изображений */
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+        .product-card {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 20px;
+            max-width: 300px; /* Ограничиваем максимальную ширину карточки */
+            box-sizing: border-box;
+        }
+        .product-card img {
+            width: 100%; /* Изображение займёт всю ширину карточки */
+            height: auto; /* Сохраняем пропорции */
+            display: block; /* Убираем нежелательные пробелы под изображением */
+        }
+    </style>
 </head>
 <body>
     <!-- Меню сайта -->
@@ -18,22 +45,19 @@
     <!-- Заголовок -->
     <h1>Каталог</h1>
 
-    <!-- Параграф "lorem150" с Emmet -->
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
-
     <!-- Три карточки товаров -->
     <div class="product-card">
-        <img src="C:\Users\vladi\Documents\Geek Brains\HTML\Task 1\Task-1-HTML-CSS\catalog\three-assorted-flavor-macarons.jpg" alt="Товар 1">
+        <img src="C:/Users/vladi/Documents/Geek Brains/HTML/Task 1/Task-1-HTML-CSS/catalog/three-assorted-flavor-macarons.jpg" alt="Макарони">
         <h3>Макарони</h3>
-        <p>Небольшое но очень векусное пирожное</p>
+        <p>Небольшое но очень вкусное пирожное</p>
     </div>
     <div class="product-card">
-        <img src="C:\Users\vladi\Documents\Geek Brains\HTML\Task 1\Task-1-HTML-CSS\catalog\jelly-worms-marshmallows.jpg" alt="Товар 2">
+        <img src="C:/Users/vladi/Documents/Geek Brains/HTML/Task 1/Task-1-HTML-CSS/catalog/jelly-worms-marshmallows.jpg" alt="Ассорти конфет">
         <h3>Ассорти конфет</h3>
         <p>Любые конфеты на ваш вкус! У нас огромный выбор</p>
     </div>
     <div class="product-card">
-        <img src="C:\Users\vladi\Documents\Geek Brains\HTML\Task 1\Task-1-HTML-CSS\catalog\pile-cookies-with-chocolate-chips.jpg" alt="Товар 3">
+        <img src="C:/Users/vladi/Documents/Geek Brains/HTML/Task 1/Task-1-HTML-CSS/catalog/pile-cookies-with-chocolate-chips.jpg" alt="Печенье с шоколадной крошкой">
         <h3>Печенье с шоколадной крошкой</h3>
         <p>Нежнейшее печенье с шоколадной крошкой</p>
     </div>
